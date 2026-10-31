@@ -1,0 +1,390 @@
+{
+ "opus s42 phone": {
+  "U_total": 0.1668,
+  "U_total_published_m1json": 0.1668,
+  "reproduces": true,
+  "U_by_dimension": {
+   "correctness": 0.382,
+   "completeness": 0.052,
+   "usefulness": 0.08
+  },
+  "by_correctness": {
+   "1": {
+    "orders": 31,
+    "share": 0.235,
+    "U_per_order": 0.0,
+    "completeness": 1,
+    "usefulness": 1
+   },
+   "2": {
+    "orders": 43,
+    "share": 0.326,
+    "U_per_order": 0.106,
+    "completeness": 1.07,
+    "usefulness": 1.16
+   },
+   "3": {
+    "orders": 28,
+    "share": 0.212,
+    "U_per_order": 0.213,
+    "completeness": 1.18,
+    "usefulness": 1.32
+   },
+   "4": {
+    "orders": 24,
+    "share": 0.182,
+    "U_per_order": 0.349,
+    "completeness": 1.38,
+    "usefulness": 1.67
+   },
+   "5": {
+    "orders": 6,
+    "share": 0.045,
+    "U_per_order": 0.659,
+    "completeness": 2.67,
+    "usefulness": 3
+   }
+  },
+  "ca5_items": [
+   "cw-001",
+   "cw-014",
+   "cw-020"
+  ],
+  "CF_A_perfect_correctness": 0.364,
+  "CF_A_CI": [
+   0.344,
+   0.385
+  ],
+  "CF_B_all_like_ca5": 0.659,
+  "share_of_items_needing_ca5_profile_for_0.50": 0.677,
+  "share_of_answered_orders_at_ca5_today": 0.045
+ },
+ "opus s43 phone": {
+  "U_total": 0.1623,
+  "U_total_published_m1json": 0.1623,
+  "reproduces": true,
+  "U_by_dimension": {
+   "correctness": 0.358,
+   "completeness": 0.06,
+   "usefulness": 0.082
+  },
+  "by_correctness": {
+   "1": {
+    "orders": 35,
+    "share": 0.265,
+    "U_per_order": 0.01,
+    "completeness": 1.11,
+    "usefulness": 1
+   },
+   "2": {
+    "orders": 44,
+    "share": 0.333,
+    "U_per_order": 0.131,
+    "completeness": 1.23,
+    "usefulness": 1.3
+   },
+   "3": {
+    "orders": 23,
+    "share": 0.174,
+    "U_per_order": 0.201,
+    "completeness": 1.09,
+    "usefulness": 1.26
+   },
+   "4": {
+    "orders": 24,
+    "share": 0.182,
+    "U_per_order": 0.34,
+    "completeness": 1.25,
+    "usefulness": 1.71
+   },
+   "5": {
+    "orders": 6,
+    "share": 0.045,
+    "U_per_order": 0.607,
+    "completeness": 2.5,
+    "usefulness": 2.67
+   }
+  },
+  "ca5_items": [
+   "cw-006",
+   "cw-014",
+   "cw-020",
+   "cx-005"
+  ],
+  "CF_A_perfect_correctness": 0.367,
+  "CF_A_CI": [
+   0.347,
+   0.388
+  ],
+  "CF_B_all_like_ca5": 0.607,
+  "share_of_items_needing_ca5_profile_for_0.50": 0.759,
+  "share_of_answered_orders_at_ca5_today": 0.045
+ },
+ "codex s42 phone": {
+  "U_total": 0.244,
+  "U_total_published_m1json": 0.244,
+  "reproduces": true,
+  "U_by_dimension": {
+   "correctness": 0.41,
+   "completeness": 0.133,
+   "usefulness": 0.195
+  },
+  "by_correctness": {
+   "1": {
+    "orders": 30,
+    "share": 0.227,
+    "U_per_order": 0.0,
+    "completeness": 1,
+    "usefulness": 1
+   },
+   "2": {
+    "orders": 51,
+    "share": 0.386,
+    "U_per_order": 0.189,
+    "completeness": 1.45,
+    "usefulness": 1.71
+   },
+   "3": {
+    "orders": 11,
+    "share": 0.083,
+    "U_per_order": 0.243,
+    "completeness": 1.18,
+    "usefulness": 1.55
+   },
+   "4": {
+    "orders": 24,
+    "share": 0.182,
+    "U_per_order": 0.448,
+    "completeness": 1.79,
+    "usefulness": 2.25
+   },
+   "5": {
+    "orders": 16,
+    "share": 0.121,
+    "U_per_order": 0.685,
+    "completeness": 2.5,
+    "usefulness": 3
+   }
+  },
+  "ca5_items": [
+   "cw-001",
+   "cw-014",
+   "cw-016",
+   "cw-020",
+   "cw-023",
+   "cx-005",
+   "cx-018",
+   "cx-022",
+   "cx-038"
+  ],
+  "CF_A_perfect_correctness": 0.436,
+  "CF_A_CI": [
+   0.404,
+   0.469
+  ],
+  "CF_B_all_like_ca5": 0.685,
+  "share_of_items_needing_ca5_profile_for_0.50": 0.58,
+  "share_of_answered_orders_at_ca5_today": 0.121
+ },
+ "codex s43 phone": {
+  "U_total": 0.2409,
+  "U_total_published_m1json": 0.2409,
+  "reproduces": true,
+  "U_by_dimension": {
+   "correctness": 0.396,
+   "completeness": 0.138,
+   "usefulness": 0.194
+  },
+  "by_correctness": {
+   "1": {
+    "orders": 32,
+    "share": 0.242,
+    "U_per_order": 0.008,
+    "completeness": 1.06,
+    "usefulness": 1.03
+   },
+   "2": {
+    "orders": 50,
+    "share": 0.379,
+    "U_per_order": 0.209,
+    "completeness": 1.6,
+    "usefulness": 1.76
+   },
+   "3": {
+    "orders": 13,
+    "share": 0.098,
+    "U_per_order": 0.267,
+    "completeness": 1.15,
+    "usefulness": 1.69
+   },
+   "4": {
+    "orders": 20,
+    "share": 0.152,
+    "U_per_order": 0.431,
+    "completeness": 1.75,
+    "usefulness": 2.25
+   },
+   "5": {
+    "orders": 17,
+    "share": 0.129,
+    "U_per_order": 0.654,
+    "completeness": 2.35,
+    "usefulness": 2.88
+   }
+  },
+  "ca5_items": [
+   "cw-006",
+   "cw-014",
+   "cw-015",
+   "cw-016",
+   "cw-017",
+   "cw-020",
+   "cw-039",
+   "cx-005",
+   "cx-022",
+   "cx-038"
+  ],
+  "CF_A_perfect_correctness": 0.437,
+  "CF_A_CI": [
+   0.406,
+   0.468
+  ],
+  "CF_B_all_like_ca5": 0.654,
+  "share_of_items_needing_ca5_profile_for_0.50": 0.627,
+  "share_of_answered_orders_at_ca5_today": 0.129
+ },
+ "opus s42 desktop-twin": {
+  "U_total": 0.1639,
+  "U_by_dimension": {
+   "correctness": 0.376,
+   "completeness": 0.052,
+   "usefulness": 0.078
+  },
+  "by_correctness": {
+   "1": {
+    "orders": 39,
+    "share": 0.287,
+    "U_per_order": 0.004,
+    "completeness": 1.05,
+    "usefulness": 1
+   },
+   "2": {
+    "orders": 40,
+    "share": 0.294,
+    "U_per_order": 0.106,
+    "completeness": 1.12,
+    "usefulness": 1.12
+   },
+   "3": {
+    "orders": 24,
+    "share": 0.176,
+    "U_per_order": 0.216,
+    "completeness": 1.17,
+    "usefulness": 1.33
+   },
+   "4": {
+    "orders": 22,
+    "share": 0.162,
+    "U_per_order": 0.316,
+    "completeness": 1.14,
+    "usefulness": 1.5
+   },
+   "5": {
+    "orders": 11,
+    "share": 0.081,
+    "U_per_order": 0.609,
+    "completeness": 2.27,
+    "usefulness": 2.91
+   }
+  },
+  "ca5_items": [
+   "cw-001",
+   "cw-014",
+   "cw-015",
+   "cw-020",
+   "cw-021",
+   "cx-005"
+  ],
+  "CF_A_perfect_correctness": 0.362,
+  "CF_A_CI": [
+   0.341,
+   0.386
+  ],
+  "CF_B_all_like_ca5": 0.609,
+  "share_of_items_needing_ca5_profile_for_0.50": 0.755,
+  "share_of_answered_orders_at_ca5_today": 0.081
+ },
+ "codex s42 desktop-twin": {
+  "U_total": 0.245,
+  "U_by_dimension": {
+   "correctness": 0.409,
+   "completeness": 0.133,
+   "usefulness": 0.191
+  },
+  "by_correctness": {
+   "1": {
+    "orders": 34,
+    "share": 0.25,
+    "U_per_order": 0.013,
+    "completeness": 1.09,
+    "usefulness": 1.06
+   },
+   "2": {
+    "orders": 43,
+    "share": 0.316,
+    "U_per_order": 0.192,
+    "completeness": 1.56,
+    "usefulness": 1.72
+   },
+   "3": {
+    "orders": 17,
+    "share": 0.125,
+    "U_per_order": 0.254,
+    "completeness": 1.29,
+    "usefulness": 1.71
+   },
+   "4": {
+    "orders": 21,
+    "share": 0.154,
+    "U_per_order": 0.373,
+    "completeness": 1.43,
+    "usefulness": 1.9
+   },
+   "5": {
+    "orders": 21,
+    "share": 0.154,
+    "U_per_order": 0.667,
+    "completeness": 2.43,
+    "usefulness": 3
+   }
+  },
+  "ca5_items": [
+   "cw-001",
+   "cw-006",
+   "cw-014",
+   "cw-015",
+   "cw-019",
+   "cw-020",
+   "cw-021",
+   "cw-023",
+   "cw-038",
+   "cx-004",
+   "cx-005",
+   "cx-038"
+  ],
+  "CF_A_perfect_correctness": 0.443,
+  "CF_A_CI": [
+   0.414,
+   0.474
+  ],
+  "CF_B_all_like_ca5": 0.667,
+  "share_of_items_needing_ca5_profile_for_0.50": 0.604,
+  "share_of_answered_orders_at_ca5_today": 0.154
+ },
+ "words": {
+  "labrat_phone_s42_median": 35,
+  "claude_ref_median": 703,
+  "codex_ref_median": 436,
+  "checklist_points_mean": 4.41
+ }
+}

@@ -1,0 +1,23 @@
+Part 1: what attribute() iterates over (SENTENCE.findall):
+    "Mongolia's population is around 3."
+    '3 million, with 51.'
+    '8% Buddhist.'
+    ' The economy is based on livestock.'
+If the first 'sentence' is attributed to source 2, Citations.kt:135 rewrites it as: "Mongolia's population is around 3 [2]." -> answer reads "Mongolia's population is around 3 [2].3 million, with 51.8% ..."
+CT-1 check() judges the model's own [2] in 'The Laetoli footprints date to 3.6 million years ago [2].' against only: '6 million years ago'
+
+Part 2: published DEVICE-FINAL phone rows with a citation written inside a decimal number:
+   df-m1-v04-s42.jsonl cw-004: ...Mongolia's population is around 3 [2].3 million, with 51.8% Budd...   (shownText has it: False)
+   df-m1-v04-s42.jsonl cw-006: ... total area. Australia's total area is about 7 [1].7 million square kilometer...   (shownText has it: False)
+   df-m1-v04-s43.jsonl cw-004: ...Mongolia's population is around 3 [2].3 million, with Buddhism a...   (shownText has it: False)
+   df-m3-packproof-s42.jsonl st-boar-simplewiki-en-006: ... The rain was mainly less than 2 inches, but 3 [1].30 inches fell in Cordoba ...   (shownText has it: False)
+   df-m3-packproof-s42.jsonl st-boar-simplewiki-en-018: ...The Laetoli footprints are older, dating to 3 [2].6 million years ago, and r...   (shownText has it: False)
+   df-m4-uxmatrix-s42.jsonl st-qa-money-se-016: ...e policy may offer tax-free payoffs, but the 1 [1].7% interest rate is lower ...   (shownText has it: False)
+   6 of 460 rows
+
+Part 3: cut-7 TypeScript regex (the fix that the Kotlin port lost):
+    "Mongolia's population is around 3.3 million, with 51.8% Buddhist."
+    ' The economy is based on livestock.'
+   cut-7 test case 1, Kotlin regex: ['The Sahara is the largest hot desert in the world, covering about 9.', '4 million square kilometres.']
+   cut-7 test case 1, fixed regex:  ['The Sahara is the largest hot desert in the world, covering about 9.4 million square kilometres.']
+   cut-7 test case 2, fixed regex:  ['The Sahara covers about 9.4 million square kilometres.', ' It spans eleven countries of North Africa.']
